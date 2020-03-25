@@ -2,7 +2,7 @@ import socket
 import select
 
 HEADER_LENGTH = 10
-IP = "192.168.15.16"
+IP = "0.0.0.0"
 PORT = 3000
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
