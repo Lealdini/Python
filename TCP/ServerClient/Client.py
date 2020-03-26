@@ -4,7 +4,7 @@ import errno
 import sys
 
 HEADER_LENGHT = 10
-IP = "192.168.15.16"
+IP = "0.0.0.0"
 PORT = 3000
 
 my_username = input("Username: ")
